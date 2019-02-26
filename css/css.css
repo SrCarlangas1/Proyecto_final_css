@@ -1,0 +1,70 @@
+.grid-cuerpo {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px; }
+
+img {
+  width: 75px; }
+
+.flex-item {
+  margin: 5%;
+  flex-direction: column;
+  text-align: center; }
+  .flex-item:hover {
+    text-decoration: underline; }
+
+div ul li a h4:hover {
+  text-decoration: underline; }
+
+nav.navbar {
+  background-color: white; }
+
+h4 {
+  color: #787C7D; }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap; }
+
+footer div div p {
+  font-size: 11px; }
+
+.flex-container div p a, footer div div p a {
+  color: black; }
+
+button {
+  color: white;
+  background-color: #0067b8;
+  border: 2px solid transparent;
+  border-radius: 5px; }
+
+.card {
+  width: 700px; }
+
+@media screen and (min-width: 1000px) {
+  div.container-fluid {
+    display: flex;
+    flex-direction: column; } }
+@media screen and (max-width: 711px) {
+  div#cuerpo {
+    display: flex;
+    flex-direction: column; }
+
+  .filtro {
+    margin-top: 23px; }
+
+  tr {
+    display: flex;
+    flex-direction: column; }
+
+  .container1 {
+    width: 163%; }
+
+  .card {
+    width: 100%; }
+
+  #divcomenatrios {
+    margin: 0; } }
+
+/*# sourceMappingURL=css.css.map */
